@@ -1,0 +1,7 @@
+
+LOGSORT: list A
+	define buckets, list B
+	for any a in A:
+		buckets.sortInsertion(logFuntion(a), a)
+	for any bucket in buckets:
+		B.add(bucket)
